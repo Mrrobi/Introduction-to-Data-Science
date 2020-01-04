@@ -1,0 +1,5 @@
+library(ISLR)
+fit <- lm(mpg ~ horsepower , data =Auto)
+summary(fit)
+par(mfrow = c(2,2))
+plot(fit)
